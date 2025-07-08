@@ -1,6 +1,6 @@
 # 🏬 Business DB - PostgreSQL
 
-**Business DB** es una base de datos relacional desarrollada en PostgreSQL que simula el sistema interno de una **tienda departamental**, como Liverpool o Sears. Está diseñada para gestionar clientes, productos, inventario, pedidos y pagos, con funcionalidades inteligentes como triggers, funciones personalizadas y vistas analíticas.
+**Business DB** es una base de datos relacional desarrollada en PostgreSQL que simula el sistema interno de una **tienda departamental**. Está diseñada para gestionar clientes, productos, inventario, pedidos y pagos, con funcionalidades inteligentes como triggers, funciones personalizadas y vistas analíticas.
 
 Este proyecto forma parte de mi portafolio personal, con enfoque profesional y estructurado para demostrar mis habilidades como desarrollador SQL y backend.
 
@@ -17,53 +17,11 @@ Este proyecto forma parte de mi portafolio personal, con enfoque profesional y e
 - 👁️‍🗨️ Vistas para análisis de datos
 - 🕵️ Bitácora de auditoría para cambios sensibles
 
----
-
-## 🧠 Estructura del proyecto
-
-```
-business-db-postgresql/
-│
-├── database/
-│   ├── schema.sql        # Estructura: tablas, relaciones, claves
-│   ├── data.sql          # Datos de prueba realistas
-│   ├── triggers.sql      # Automatizaciones (stock, auditoría)
-│   ├── functions.sql     # Cálculos: totales, stock bajo, etc.
-│   └── views.sql         # Vistas de negocio (ventas, clientes top)
-├── README.md             # Este documento
-└── .gitignore            # Exclusiones de Git (opcional)
-```
 
 ---
 
-## ⚙️ Cómo ejecutar el proyecto
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/IngCbarrios/business-db-postgresql.git
-   cd business-db-postgresql
-   ```
-
-2. Carga el esquema:
-   ```sql
-   \i database/schema.sql
-   ```
-
-3. Inserta los datos:
-   ```sql
-   \i database/data.sql
-   ```
-
-4. Activa lógica de negocio:
-   ```sql
-   \i database/functions.sql
-   \i database/triggers.sql
-   \i database/views.sql
-   ```
-
----
-
-## 🧪 Ejemplos de uso
+##  Ejemplos de uso de Funciones y Vistas
 
 🔹 Total gastado por un cliente:
 ```sql
@@ -102,7 +60,7 @@ Este proyecto puede escalar con:
 
 ---
 
-## 📈 ¿Qué habilidades demuestra este proyecto?
+##  ¿Qué habilidades demuestra este proyecto?
 
 ✅ Modelado relacional (3FN)  
 ✅ Buenas prácticas SQL  
@@ -116,9 +74,7 @@ Este proyecto puede escalar con:
 ## 🙋‍♂️ Autor
 
 > **Christian Alejandro Barrios Quiroz**  
-> Biomedical Engineer • SQL & Python Developer  
-> GitHub: [@IngCbarrios](https://github.com/IngCbarrios)
-
+> Biomedical Engineer • SQL & Python Developer 
 ---
 
 ## 🧾 Licencia
