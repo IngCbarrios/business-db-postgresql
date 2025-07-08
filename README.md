@@ -61,10 +61,4 @@ SELECT * FROM vista_top_clientes;
 
 ##  Autor
 
-> **Christian Barrios**  
-> Biomedical Engineer • SQL & Python Developer 
----
-
-## 🧾 Licencia
-
-Este proyecto es libre para uso educativo y de portafolio.
+> **Ing. Christian Barrios**
